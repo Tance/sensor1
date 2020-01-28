@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+
+   <TextView
+       android:id="@+id/orientationView"
+       android:layout_width="match_parent"
+       android:text="说明：手动触发为调试和演示之用，在自动测量界面，依然可以触发"
+       android:textSize="20dp"
+       android:layout_marginBottom="20dp"
+       android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="开始测量"
+        android:onClick="startMeasuring"
+        android:layout_marginBottom="10dp"
+        />
+   <Button
+      android:id="@+id/btn2"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:text="手动触发按钮"
+       android:onClick="measuringEnding"
+       />
+
+
+
+</LinearLayout>

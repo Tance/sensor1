@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/accelerometerView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/orientationView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/sensorShow"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:text="这是传感器测量页面，测量的参数包含加速度传感器，方位传感器，如果手机不存在对应的传感器，则对应的地方位空白"
+        android:layout_height="150dp" />
+
+
+
+</LinearLayout>
